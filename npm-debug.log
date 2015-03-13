@@ -1,0 +1,403 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-angular' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'generator-angular', null ]
+5 verbose cache add name=undefined spec="generator-angular" args=["generator-angular",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'generator-angular',
+6 verbose parsed url   path: 'generator-angular',
+6 verbose parsed url   href: 'generator-angular' }
+7 silly lockFile 458e0b50-generator-angular generator-angular
+8 verbose lock generator-angular /home/gratitude-dude/.npm/458e0b50-generator-angular.lock
+9 silly lockFile 458e0b50-generator-angular generator-angular
+10 silly lockFile 458e0b50-generator-angular generator-angular
+11 verbose addNamed [ 'generator-angular', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 0345f598-generator-angular generator-angular@
+14 verbose lock generator-angular@ /home/gratitude-dude/.npm/0345f598-generator-angular.lock
+15 silly addNameRange { name: 'generator-angular', range: '*', hasData: false }
+16 verbose url raw generator-angular
+17 verbose url resolving [ 'https://registry.npmjs.org/', './generator-angular' ]
+18 verbose url resolved https://registry.npmjs.org/generator-angular
+19 info trying registry request attempt 1 at 22:12:16
+20 http GET https://registry.npmjs.org/generator-angular
+21 http 200 https://registry.npmjs.org/generator-angular
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Fri, 13 Mar 2015 04:12:16 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"DNOK8O9ZDLZNZVWQZ7JNELXJL"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '64277',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-ord1727-ORD',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1426219936.499645,VS0,VE28',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'generator-angular', range: '*', hasData: true }
+24 silly addNameRange versions [ 'generator-angular',
+24 silly addNameRange   [ '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.4',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.2.2',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.6.0-rc.1',
+24 silly addNameRange     '0.6.0-rc.2',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.9.0-0',
+24 silly addNameRange     '0.9.0-1',
+24 silly addNameRange     '0.9.0',
+24 silly addNameRange     '0.9.1',
+24 silly addNameRange     '0.9.2',
+24 silly addNameRange     '0.9.3',
+24 silly addNameRange     '0.9.5',
+24 silly addNameRange     '0.9.6',
+24 silly addNameRange     '0.9.7',
+24 silly addNameRange     '0.9.8',
+24 silly addNameRange     '0.10.0',
+24 silly addNameRange     '0.11.0',
+24 silly addNameRange     '0.11.1' ] ]
+25 verbose addNamed [ 'generator-angular', '0.11.1' ]
+26 verbose addNamed [ '0.11.1', '0.11.1' ]
+27 silly lockFile 87d1bbb8-generator-angular-0-11-1 generator-angular@0.11.1
+28 verbose lock generator-angular@0.11.1 /home/gratitude-dude/.npm/87d1bbb8-generator-angular-0-11-1.lock
+29 silly lockFile 4ef51c62-lar-generator-angular-0-11-1-tgz https://registry.npmjs.org/generator-angular/-/generator-angular-0.11.1.tgz
+30 verbose lock https://registry.npmjs.org/generator-angular/-/generator-angular-0.11.1.tgz /home/gratitude-dude/.npm/4ef51c62-lar-generator-angular-0-11-1-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-angular/-/generator-angular-0.11.1.tgz',
+31 verbose addRemoteTarball   'f469e28e4ce67639a47c690ba5e54f90558d8e8f' ]
+32 info retry fetch attempt 1 at 22:12:16
+33 verbose fetch to= /home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/tmp.tgz
+34 http GET https://registry.npmjs.org/generator-angular/-/generator-angular-0.11.1.tgz
+35 http 200 https://registry.npmjs.org/generator-angular/-/generator-angular-0.11.1.tgz
+36 verbose tar unpack /home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/tmp.tgz
+37 silly lockFile 990a0576-36914-0-6223385399207473-package tar:///home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/package
+38 verbose lock tar:///home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/package /home/gratitude-dude/.npm/990a0576-36914-0-6223385399207473-package.lock
+39 silly lockFile 16f3565a-36914-0-6223385399207473-tmp-tgz tar:///home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/tmp.tgz
+40 verbose lock tar:///home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/tmp.tgz /home/gratitude-dude/.npm/16f3565a-36914-0-6223385399207473-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry script-base.js
+44 silly gunzTarPerm extractEntry util.js
+45 silly gunzTarPerm extractEntry directive/index.js
+46 silly gunzTarPerm extractEntry directive/USAGE
+47 silly gunzTarPerm extractEntry CHANGELOG.md
+48 silly gunzTarPerm extractEntry app/index.js
+49 silly gunzTarPerm extractEntry app/USAGE
+50 silly gunzTarPerm extractEntry common/index.js
+51 silly gunzTarPerm extractEntry constant/index.js
+52 silly gunzTarPerm extractEntry constant/USAGE
+53 silly gunzTarPerm extractEntry controller/index.js
+54 silly gunzTarPerm extractEntry controller/USAGE
+55 silly gunzTarPerm extractEntry decorator/index.js
+56 silly gunzTarPerm extractEntry decorator/USAGE
+57 silly gunzTarPerm extractEntry factory/index.js
+58 silly gunzTarPerm extractEntry factory/USAGE
+59 silly gunzTarPerm extractEntry filter/index.js
+60 silly gunzTarPerm extractEntry filter/USAGE
+61 silly gunzTarPerm extractEntry main/index.js
+62 silly gunzTarPerm extractEntry value/index.js
+63 silly gunzTarPerm extractEntry value/USAGE
+64 silly gunzTarPerm extractEntry provider/index.js
+65 silly gunzTarPerm extractEntry provider/USAGE
+66 silly gunzTarPerm extractEntry readme.md
+67 silly gunzTarPerm extractEntry route/index.js
+68 silly gunzTarPerm extractEntry route/USAGE
+69 silly gunzTarPerm extractEntry service/index.js
+70 silly gunzTarPerm extractEntry service/USAGE
+71 silly gunzTarPerm extractEntry templates/coffeescript/app.coffee
+72 silly gunzTarPerm extractEntry templates/coffeescript/controller.coffee
+73 silly gunzTarPerm extractEntry templates/coffeescript/decorator.coffee
+74 silly gunzTarPerm extractEntry templates/coffeescript/directive.coffee
+75 silly gunzTarPerm extractEntry templates/coffeescript/filter.coffee
+76 silly gunzTarPerm extractEntry templates/coffeescript/service/constant.coffee
+77 silly gunzTarPerm extractEntry templates/coffeescript/service/factory.coffee
+78 silly gunzTarPerm extractEntry templates/coffeescript/service/provider.coffee
+79 silly gunzTarPerm extractEntry templates/coffeescript/service/service.coffee
+80 silly gunzTarPerm extractEntry templates/coffeescript/service/value.coffee
+81 silly gunzTarPerm extractEntry templates/coffeescript/spec/controller.coffee
+82 silly gunzTarPerm extractEntry templates/coffeescript/spec/directive.coffee
+83 silly gunzTarPerm extractEntry templates/coffeescript/spec/filter.coffee
+84 silly gunzTarPerm extractEntry templates/coffeescript/spec/service.coffee
+85 silly gunzTarPerm extractEntry templates/common/app/.buildignore
+86 silly gunzTarPerm extractEntry templates/common/app/.htaccess
+87 silly gunzTarPerm extractEntry templates/common/app/404.html
+88 silly gunzTarPerm extractEntry templates/common/app/favicon.ico
+89 silly gunzTarPerm extractEntry templates/common/app/images/yeoman.png
+90 silly gunzTarPerm extractEntry templates/common/app/index.html
+91 silly gunzTarPerm extractEntry templates/common/app/robots.txt
+92 silly gunzTarPerm extractEntry templates/common/app/styles/main.css
+93 silly gunzTarPerm extractEntry templates/common/app/styles/main.scss
+94 silly gunzTarPerm extractEntry templates/common/app/views/main.html
+95 silly gunzTarPerm extractEntry templates/common/app/views/view.html
+96 silly gunzTarPerm extractEntry templates/common/root/README.md
+97 silly gunzTarPerm extractEntry templates/common/root/_Gruntfile.js
+98 silly gunzTarPerm extractEntry templates/common/root/.jshintrc
+99 silly gunzTarPerm extractEntry templates/common/root/.yo-rc.json
+100 silly gunzTarPerm extractEntry templates/common/root/.editorconfig
+101 silly gunzTarPerm extractEntry templates/common/root/.gitattributes
+102 silly gunzTarPerm extractEntry templates/common/root/_bower.json
+103 silly gunzTarPerm extractEntry templates/common/root/_bowerrc
+104 silly gunzTarPerm extractEntry templates/common/root/_package.json
+105 silly gunzTarPerm extractEntry templates/common/root/gitignore
+106 silly gunzTarPerm extractEntry templates/common/root/test/.jshintrc
+107 silly gunzTarPerm extractEntry templates/javascript/app.js
+108 silly gunzTarPerm extractEntry templates/javascript/controller.js
+109 silly gunzTarPerm extractEntry templates/javascript/decorator.js
+110 silly gunzTarPerm extractEntry templates/javascript/directive.js
+111 silly gunzTarPerm extractEntry templates/javascript/filter.js
+112 silly gunzTarPerm extractEntry templates/javascript/service/constant.js
+113 silly gunzTarPerm extractEntry templates/javascript/service/factory.js
+114 silly gunzTarPerm extractEntry templates/javascript/service/provider.js
+115 silly gunzTarPerm extractEntry templates/javascript/service/service.js
+116 silly gunzTarPerm extractEntry templates/javascript/service/value.js
+117 silly gunzTarPerm extractEntry templates/javascript/spec/controller.js
+118 silly gunzTarPerm extractEntry templates/javascript/spec/directive.js
+119 silly gunzTarPerm extractEntry templates/javascript/spec/filter.js
+120 silly gunzTarPerm extractEntry templates/javascript/spec/service.js
+121 silly gunzTarPerm extractEntry view/index.js
+122 silly gunzTarPerm extractEntry view/USAGE
+123 silly lockFile 990a0576-36914-0-6223385399207473-package tar:///home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/package
+124 silly lockFile 990a0576-36914-0-6223385399207473-package tar:///home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/package
+125 silly lockFile 16f3565a-36914-0-6223385399207473-tmp-tgz tar:///home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/tmp.tgz
+126 silly lockFile 16f3565a-36914-0-6223385399207473-tmp-tgz tar:///home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/tmp.tgz
+127 verbose tar pack [ '/home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz',
+127 verbose tar pack   '/home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/package' ]
+128 verbose tarball /home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz
+129 verbose folder /home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/package
+130 silly lockFile 990a0576-36914-0-6223385399207473-package tar:///home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/package
+131 verbose lock tar:///home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/package /home/gratitude-dude/.npm/990a0576-36914-0-6223385399207473-package.lock
+132 silly lockFile e2e0e237-rator-angular-0-11-1-package-tgz tar:///home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz
+133 verbose lock tar:///home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz /home/gratitude-dude/.npm/e2e0e237-rator-angular-0-11-1-package-tgz.lock
+134 silly lockFile 990a0576-36914-0-6223385399207473-package tar:///home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/package
+135 silly lockFile 990a0576-36914-0-6223385399207473-package tar:///home/gratitude-dude/tmp/npm-5404-RmjVfiHS/1426219936914-0.6223385399207473/package
+136 silly lockFile e2e0e237-rator-angular-0-11-1-package-tgz tar:///home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz
+137 silly lockFile e2e0e237-rator-angular-0-11-1-package-tgz tar:///home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz
+138 silly lockFile df32aa07-generator-angular-0-11-1-package /home/gratitude-dude/.npm/generator-angular/0.11.1/package
+139 verbose lock /home/gratitude-dude/.npm/generator-angular/0.11.1/package /home/gratitude-dude/.npm/df32aa07-generator-angular-0-11-1-package.lock
+140 silly lockFile df32aa07-generator-angular-0-11-1-package /home/gratitude-dude/.npm/generator-angular/0.11.1/package
+141 silly lockFile df32aa07-generator-angular-0-11-1-package /home/gratitude-dude/.npm/generator-angular/0.11.1/package
+142 verbose tar unpack /home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz
+143 silly lockFile 042a0387-generator-angular-0-11-1-package tar:///home/gratitude-dude/.npm/generator-angular/0.11.1/package
+144 verbose lock tar:///home/gratitude-dude/.npm/generator-angular/0.11.1/package /home/gratitude-dude/.npm/042a0387-generator-angular-0-11-1-package.lock
+145 silly lockFile e2e0e237-rator-angular-0-11-1-package-tgz tar:///home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz
+146 verbose lock tar:///home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz /home/gratitude-dude/.npm/e2e0e237-rator-angular-0-11-1-package-tgz.lock
+147 silly gunzTarPerm modes [ '755', '644' ]
+148 silly gunzTarPerm extractEntry package.json
+149 silly gunzTarPerm extractEntry script-base.js
+150 silly gunzTarPerm extractEntry util.js
+151 silly gunzTarPerm extractEntry controller/index.js
+152 silly gunzTarPerm extractEntry controller/USAGE
+153 silly gunzTarPerm extractEntry decorator/index.js
+154 silly gunzTarPerm extractEntry decorator/USAGE
+155 silly gunzTarPerm extractEntry directive/index.js
+156 silly gunzTarPerm extractEntry directive/USAGE
+157 silly gunzTarPerm extractEntry factory/index.js
+158 silly gunzTarPerm extractEntry factory/USAGE
+159 silly gunzTarPerm extractEntry filter/index.js
+160 silly gunzTarPerm extractEntry filter/USAGE
+161 silly gunzTarPerm extractEntry main/index.js
+162 silly gunzTarPerm extractEntry common/index.js
+163 silly gunzTarPerm extractEntry provider/index.js
+164 silly gunzTarPerm extractEntry provider/USAGE
+165 silly gunzTarPerm extractEntry readme.md
+166 silly gunzTarPerm extractEntry route/index.js
+167 silly gunzTarPerm extractEntry route/USAGE
+168 silly gunzTarPerm extractEntry app/index.js
+169 silly gunzTarPerm extractEntry app/USAGE
+170 silly gunzTarPerm extractEntry service/index.js
+171 silly gunzTarPerm extractEntry service/USAGE
+172 silly gunzTarPerm extractEntry templates/coffeescript/app.coffee
+173 silly gunzTarPerm extractEntry templates/coffeescript/controller.coffee
+174 silly gunzTarPerm extractEntry templates/coffeescript/decorator.coffee
+175 silly gunzTarPerm extractEntry templates/coffeescript/directive.coffee
+176 silly gunzTarPerm extractEntry templates/coffeescript/filter.coffee
+177 silly gunzTarPerm extractEntry templates/coffeescript/service/constant.coffee
+178 silly gunzTarPerm extractEntry templates/coffeescript/service/factory.coffee
+179 silly gunzTarPerm extractEntry templates/coffeescript/service/provider.coffee
+180 silly gunzTarPerm extractEntry templates/coffeescript/service/service.coffee
+181 silly gunzTarPerm extractEntry templates/coffeescript/service/value.coffee
+182 silly gunzTarPerm extractEntry templates/coffeescript/spec/controller.coffee
+183 silly gunzTarPerm extractEntry templates/coffeescript/spec/directive.coffee
+184 silly gunzTarPerm extractEntry templates/coffeescript/spec/filter.coffee
+185 silly gunzTarPerm extractEntry templates/coffeescript/spec/service.coffee
+186 silly gunzTarPerm extractEntry templates/common/app/.buildignore
+187 silly gunzTarPerm extractEntry templates/common/app/.htaccess
+188 silly gunzTarPerm extractEntry templates/common/app/404.html
+189 silly gunzTarPerm extractEntry templates/common/app/favicon.ico
+190 silly gunzTarPerm extractEntry templates/common/app/images/yeoman.png
+191 silly gunzTarPerm extractEntry templates/common/app/index.html
+192 silly gunzTarPerm extractEntry templates/common/app/robots.txt
+193 silly gunzTarPerm extractEntry templates/common/app/styles/main.css
+194 silly gunzTarPerm extractEntry templates/common/app/styles/main.scss
+195 silly gunzTarPerm extractEntry templates/common/app/views/main.html
+196 silly gunzTarPerm extractEntry templates/common/app/views/view.html
+197 silly gunzTarPerm extractEntry templates/common/root/README.md
+198 silly gunzTarPerm extractEntry templates/common/root/_Gruntfile.js
+199 silly gunzTarPerm extractEntry templates/common/root/.jshintrc
+200 silly gunzTarPerm extractEntry templates/common/root/.yo-rc.json
+201 silly gunzTarPerm extractEntry templates/common/root/.editorconfig
+202 silly gunzTarPerm extractEntry templates/common/root/.gitattributes
+203 silly gunzTarPerm extractEntry templates/common/root/_bower.json
+204 silly gunzTarPerm extractEntry templates/common/root/_bowerrc
+205 silly gunzTarPerm extractEntry templates/common/root/_package.json
+206 silly gunzTarPerm extractEntry templates/common/root/gitignore
+207 silly gunzTarPerm extractEntry templates/common/root/test/.jshintrc
+208 silly gunzTarPerm extractEntry templates/javascript/app.js
+209 silly gunzTarPerm extractEntry templates/javascript/controller.js
+210 silly gunzTarPerm extractEntry templates/javascript/decorator.js
+211 silly gunzTarPerm extractEntry templates/javascript/directive.js
+212 silly gunzTarPerm extractEntry templates/javascript/filter.js
+213 silly gunzTarPerm extractEntry templates/javascript/service/constant.js
+214 silly gunzTarPerm extractEntry templates/javascript/service/factory.js
+215 silly gunzTarPerm extractEntry templates/javascript/service/provider.js
+216 silly gunzTarPerm extractEntry templates/javascript/service/service.js
+217 silly gunzTarPerm extractEntry templates/javascript/service/value.js
+218 silly gunzTarPerm extractEntry templates/javascript/spec/controller.js
+219 silly gunzTarPerm extractEntry templates/javascript/spec/directive.js
+220 silly gunzTarPerm extractEntry templates/javascript/spec/filter.js
+221 silly gunzTarPerm extractEntry templates/javascript/spec/service.js
+222 silly gunzTarPerm extractEntry constant/index.js
+223 silly gunzTarPerm extractEntry constant/USAGE
+224 silly gunzTarPerm extractEntry value/index.js
+225 silly gunzTarPerm extractEntry value/USAGE
+226 silly gunzTarPerm extractEntry view/index.js
+227 silly gunzTarPerm extractEntry view/USAGE
+228 silly lockFile 042a0387-generator-angular-0-11-1-package tar:///home/gratitude-dude/.npm/generator-angular/0.11.1/package
+229 silly lockFile 042a0387-generator-angular-0-11-1-package tar:///home/gratitude-dude/.npm/generator-angular/0.11.1/package
+230 silly lockFile e2e0e237-rator-angular-0-11-1-package-tgz tar:///home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz
+231 silly lockFile e2e0e237-rator-angular-0-11-1-package-tgz tar:///home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz
+232 verbose chmod /home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz 644
+233 verbose chown /home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz [ 1000, 1000 ]
+234 silly lockFile 4ef51c62-lar-generator-angular-0-11-1-tgz https://registry.npmjs.org/generator-angular/-/generator-angular-0.11.1.tgz
+235 silly lockFile 4ef51c62-lar-generator-angular-0-11-1-tgz https://registry.npmjs.org/generator-angular/-/generator-angular-0.11.1.tgz
+236 silly lockFile 87d1bbb8-generator-angular-0-11-1 generator-angular@0.11.1
+237 silly lockFile 87d1bbb8-generator-angular-0-11-1 generator-angular@0.11.1
+238 silly lockFile 0345f598-generator-angular generator-angular@
+239 silly lockFile 0345f598-generator-angular generator-angular@
+240 silly resolved [ { name: 'generator-angular',
+240 silly resolved     version: '0.11.1',
+240 silly resolved     description: 'Yeoman generator for AngularJS',
+240 silly resolved     keywords:
+240 silly resolved      [ 'yeoman-generator',
+240 silly resolved        'scaffold',
+240 silly resolved        'framework',
+240 silly resolved        'component',
+240 silly resolved        'front-end',
+240 silly resolved        'app',
+240 silly resolved        'angular' ],
+240 silly resolved     author: { name: 'The Yeoman Team' },
+240 silly resolved     main: 'app/index.js',
+240 silly resolved     files:
+240 silly resolved      [ 'app',
+240 silly resolved        'common',
+240 silly resolved        'constant',
+240 silly resolved        'controller',
+240 silly resolved        'decorator',
+240 silly resolved        'directive',
+240 silly resolved        'factory',
+240 silly resolved        'filter',
+240 silly resolved        'main',
+240 silly resolved        'provider',
+240 silly resolved        'route',
+240 silly resolved        'service',
+240 silly resolved        'templates',
+240 silly resolved        'value',
+240 silly resolved        'view',
+240 silly resolved        'script-base.js',
+240 silly resolved        'util.js' ],
+240 silly resolved     repository:
+240 silly resolved      { type: 'git',
+240 silly resolved        url: 'git://github.com/yeoman/generator-angular' },
+240 silly resolved     scripts: { test: 'mocha' },
+240 silly resolved     dependencies:
+240 silly resolved      { wiredep: '^2.2.0',
+240 silly resolved        'yeoman-generator': '^0.16.0',
+240 silly resolved        yosay: '^1.0.2',
+240 silly resolved        chalk: '^0.5.0' },
+240 silly resolved     peerDependencies: { 'generator-karma': '>=0.9.0', yo: '>=1.0.0' },
+240 silly resolved     devDependencies:
+240 silly resolved      { grunt: '~0.4.1',
+240 silly resolved        'grunt-contrib-jshint': '~0.11.0',
+240 silly resolved        'grunt-conventional-changelog': '~1.1.0',
+240 silly resolved        'grunt-release': '~0.11.0',
+240 silly resolved        'load-grunt-tasks': '~3.1.0',
+240 silly resolved        mocha: '*',
+240 silly resolved        semver: '~4.2.0',
+240 silly resolved        'underscore.string': '~2.3.1' },
+240 silly resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+240 silly resolved     licenses: [ [Object] ],
+240 silly resolved     readme: '# AngularJS generator [![Build Status](https://secure.travis-ci.org/yeoman/generator-angular.svg?branch=master)](http://travis-ci.org/yeoman/generator-angular)\n\n> Yeoman generator for AngularJS - lets you quickly set up a project with sensible defaults and best practices.\n\n[Roadmap for upcoming plans/features/fixes](https://github.com/yeoman/generator-angular/issues/553)\n\n## Usage\n\nInstall `generator-angular`:\n```\nnpm install -g generator-angular\n```\n\nMake a new directory, and `cd` into it:\n```\nmkdir my-new-project && cd $_\n```\n\nRun `yo angular`, optionally passing an app name:\n```\nyo angular [app-name]\n```\n\nRun `grunt` for building and `grunt serve` for preview\n\n\n## Generators\n\nAvailable generators:\n\n* [angular](#app) (aka [angular:app](#app))\n* [angular:controller](#controller)\n* [angular:directive](#directive)\n* [angular:filter](#filter)\n* [angular:route](#route)\n* [angular:service](#service)\n* [angular:provider](#service)\n* [angular:factory](#service)\n* [angular:value](#service)\n* [angular:constant](#service)\n* [angular:decorator](#decorator)\n* [angular:view](#view)\n\n### App\nSets up a new AngularJS app, generating all the boilerplate you need to get started. The app generator also optionally installs Bootstrap and additional AngularJS modules, such as angular-resource (installed by default).\n\nExample:\n```bash\nyo angular\n```\n\n### Route\nGenerates a controller and view, and configures a route in `app/scripts/app.js` connecting them.\n\nExample:\n```bash\nyo angular:route myroute\n```\n\nProduces `app/scripts/controllers/myroute.js`:\n```javascript\nangular.module(\'myMod\').controller(\'MyrouteCtrl\', function ($scope) {\n  // ...\n});\n```\n\nProduces `app/views/myroute.html`:\n```html\n<p>This is the myroute view</p>\n```\n\n**Explicitly provide route URI**\n\nExample:\n```bash\nyo angular:route myRoute --uri=my/route\n```\n\nProduces controller and view as above and adds a route to `app/scripts/app.js`\nwith URI `my/route`\n\n### Controller\nGenerates a controller in `app/scripts/controllers`.\n\nExample:\n```bash\nyo angular:controller user\n```\n\nProduces `app/scripts/controllers/user.js`:\n```javascript\nangular.module(\'myMod\').controller(\'UserCtrl\', function ($scope) {\n  // ...\n});\n```\n### Directive\nGenerates a directive in `app/scripts/directives`.\n\nExample:\n```bash\nyo angular:directive myDirective\n```\n\nProduces `app/scripts/directives/myDirective.js`:\n```javascript\nangular.module(\'myMod\').directive(\'myDirective\', function () {\n  return {\n    template: \'<div></div>\',\n    restrict: \'E\',\n    link: function postLink(scope, element, attrs) {\n      element.text(\'this is the myDirective directive\');\n    }\n  };\n});\n```\n\n### Filter\nGenerates a filter in `app/scripts/filters`.\n\nExample:\n```bash\nyo angular:filter myFilter\n```\n\nProduces `app/scripts/filters/myFilter.js`:\n```javascript\nangular.module(\'myMod\').filter(\'myFilter\', function () {\n  return function (input) {\n    return \'myFilter filter:\' + input;\n  };\n});\n```\n\n### View\nGenerates an HTML view file in `app/views`.\n\nExample:\n```bash\nyo angular:view user\n```\n\nProduces `app/views/user.html`:\n```html\n<p>This is the user view</p>\n```\n\n### Service\nGenerates an AngularJS service.\n\nExample:\n```bash\nyo angular:service myService\n```\n\nProduces `app/scripts/services/myService.js`:\n```javascript\nangular.module(\'myMod\').service(\'myService\', function () {\n  // ...\n});\n```\n\nYou can also do `yo angular:factory`, `yo angular:provider`, `yo angular:value`, and `yo angular:constant` for other types of services.\n\n### Decorator\nGenerates an AngularJS service decorator.\n\nExample:\n```bash\nyo angular:decorator serviceName\n```\n\nProduces `app/scripts/decorators/serviceNameDecorator.js`:\n```javascript\nangular.module(\'myMod\').config(function ($provide) {\n    $provide.decorator(\'serviceName\', function ($delegate) {\n      // ...\n      return $delegate;\n    });\n  });\n```\n\n## Options\nIn general, these options can be applied to any generator, though they only affect generators that produce scripts.\n\n### CoffeeScript\nFor generators that output scripts, the `--coffee` option will output CoffeeScript instead of JavaScript.\n\nFor example:\n```bash\nyo angular:controller user --coffee\n```\n\nProduces `app/scripts/controller/user.coffee`:\n```coffeescript\nangular.module(\'myMod\')\n  .controller \'UserCtrl\', ($scope) ->\n```\n\nA project can mix CoffeScript and JavaScript files.\n\nTo output JavaScript files, even if CoffeeScript files exist (the default is to output CoffeeScript files if the generator finds any in the project), use `--coffee=false`.\n\n### Minification Safe\n\n**tl;dr**: You don\'t need to write annotated code as the build step will\nhandle it for you.\n\nBy default, generators produce unannotated code. Without annotations, AngularJS\'s DI system will break when minified. Typically, these annotations that make minification safe are added automatically at build-time, after application files are concatenated, but before they are minified. The annotations are important because minified code will rename variables, making it impossible for AngularJS to infer module names based solely on function parameters.\n\nThe recommended build process uses `ng-annotate`, a tool that automatically adds these annotations. However, if you\'d rather not use it, you have to add these annotations manually yourself. Why would you do that though? If you find a bug\nin the annotated code, please file an issue at [ng-annotate](https://github.com/olov/ng-annotate/issues).\n\n\n### Add to Index\nBy default, new scripts are added to the index.html file. However, this may not always be suitable. Some use cases:\n\n* Manually added to the file\n* Auto-added by a 3rd party plugin\n* Using this generator as a subgenerator\n\nTo skip adding them to the index, pass in the skip-add argument:\n```bash\nyo angular:service serviceName --skip-add\n```\n\n## Bower Components\n\nThe following packages are always installed by the [app](#app) generator:\n\n* angular\n* angular-mocks\n\n\nThe following additional modules are available as components on bower, and installable via `bower install`:\n\n* angular-animate\n* angular-aria\n* angular-cookies\n* angular-messages\n* angular-resource\n* angular-sanitize\n\nAll of these can be updated with `bower update` as new versions of AngularJS are released.\n\n`json3` and `es5-shim` have been removed as Angular 1.3 has dropped IE8 support and that is the last version that needed these shims. If you still require these, you can include them with: `bower install --save json3 es5-shim`. `wiredep` should add them to your index.html file but if not you can manually add them.\n\n## Configuration\nYeoman generated projects can be further tweaked according to your needs by modifying project files appropriately.\n\n### Output\nYou can change the `app` directory by adding a `appPath` property to `bower.json`. For instance, if you wanted to easily integrate with Express.js, you could add the following:\n\n```json\n{\n  "name": "yo-test",\n  "version": "0.0.0",\n  ...\n  "appPath": "public"\n}\n\n```\nThis will cause Yeoman-generated client-side files to be placed in `public`.\n\nNote that you can also achieve the same results by adding an `--appPath` option when starting generator:\n```bash\nyo angular [app-name] --appPath=public\n```\n\n## Testing\n\nRunning `grunt test` will run the unit tests with karma.\n\n## Contribute\n\nSee the [contributing docs](https://github.com/yeoman/yeoman/blob/master/contributing.md)\n\nWhen submitting an issue, please follow the [guidelines](https://github.com/yeoman/yeoman/blob/master/contributing.md#issue-submission). Especially important is to make sure Yeoman is up-to-date, and providing the command or commands that cause the issue.\n\nWhen submitting a PR, make sure that the commit messages match the [AngularJS conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/).\n\nWhen submitting a bugfix, write a test that exposes the bug and fails before applying your fix. Submit the test alongside the fix.\n\nWhen submitting a new feature, add tests that cover the feature.\n\n## Changelog\n\nRecent changes can be viewed on Github on the [Releases Page](https://github.com/yeoman/generator-angular/releases)\n\n## License\n\n[BSD license](http://opensource.org/licenses/bsd-license.php)\n',
+240 silly resolved     readmeFilename: 'readme.md',
+240 silly resolved     bugs: { url: 'https://github.com/yeoman/generator-angular/issues' },
+240 silly resolved     _id: 'generator-angular@0.11.1',
+240 silly resolved     dist: { shasum: 'd5649f0b739cdf20cb0b5f32f085c1f8ec118d6b' },
+240 silly resolved     _from: 'generator-angular@',
+240 silly resolved     _resolved: 'https://registry.npmjs.org/generator-angular/-/generator-angular-0.11.1.tgz' } ]
+241 info install generator-angular@0.11.1 into /usr/local/lib
+242 info installOne generator-angular@0.11.1
+243 info /usr/local/lib/node_modules/generator-angular unbuild
+244 verbose tar unpack /home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz
+245 silly lockFile 919d8aa6-b-node-modules-generator-angular tar:///usr/local/lib/node_modules/generator-angular
+246 verbose lock tar:///usr/local/lib/node_modules/generator-angular /home/gratitude-dude/.npm/919d8aa6-b-node-modules-generator-angular.lock
+247 silly lockFile e2e0e237-rator-angular-0-11-1-package-tgz tar:///home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz
+248 verbose lock tar:///home/gratitude-dude/.npm/generator-angular/0.11.1/package.tgz /home/gratitude-dude/.npm/e2e0e237-rator-angular-0-11-1-package-tgz.lock
+249 silly gunzTarPerm modes [ '755', '644' ]
+250 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-angular'
+250 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-angular']
+250 error   errno: 3,
+250 error   code: 'EACCES',
+250 error   path: '/usr/local/lib/node_modules/generator-angular',
+250 error   fstream_type: 'Directory',
+250 error   fstream_path: '/usr/local/lib/node_modules/generator-angular',
+250 error   fstream_class: 'DirWriter',
+250 error   fstream_stack:
+250 error    [ '/usr/lib/nodejs/fstream/lib/dir-writer.js:36:23',
+250 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+250 error      'Object.oncomplete (fs.js:107:15)' ] }
+251 error Please try running this command again as root/Administrator.
+252 error System Linux 3.13.0-46-generic
+253 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "generator-angular"
+254 error cwd /home/gratitude-dude/projects/rpg
+255 error node -v v0.10.25
+256 error npm -v 1.3.10
+257 error path /usr/local/lib/node_modules/generator-angular
+258 error fstream_path /usr/local/lib/node_modules/generator-angular
+259 error fstream_type Directory
+260 error fstream_class DirWriter
+261 error code EACCES
+262 error errno 3
+263 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-angular'
+264 error fstream_stack /usr/lib/nodejs/fstream/lib/dir-writer.js:36:23
+264 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+264 error fstream_stack Object.oncomplete (fs.js:107:15)
+265 verbose exit [ 3, true ]
