@@ -1,0 +1,18 @@
+{
+    "name": "gratitude-dude/rise",
+    "description": "App companion to the tabletop game RISE",
+    "require": {
+        "doctrine/orm": "^2.6@dev",
+        "symfony/event-dispatcher": "^3.0@dev",
+        "symfony/process": "^3.0@dev",
+        "psr/log": "^1.0@dev",
+        "symfony/yaml": "^3.0@dev"
+    },
+    "authors": [
+        {
+            "name": "Gratitude Dude",
+            "email": "brady.joshuar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
