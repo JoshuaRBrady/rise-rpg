@@ -25,6 +25,11 @@ build/Release
 node_modules
 node_modules/*
 bower_components
+bower_components/*
 
 # Users Environment Variables
 .lock-wscript
+
+# Composer vendor directory
+vendor
+vendor/*
